@@ -1,0 +1,371 @@
+/* this the body tag */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+/* this for the navbar */
+a{
+    text-decoration: none;
+}
+/* this for the bg */
+.sec1 > img{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-attachment: fixed;
+    z-index: -2;
+}
+/* this for all the address and contact */
+.sec1{
+    display: flex;
+}
+.flex{
+    display: flex;
+}
+/* this the icon styling */
+.marked{
+    color: #ff974f;
+    width: 20px;
+    font-size: 5vw;
+}
+/* this for both addres and contact container */
+.header{
+    padding: 20px;
+    display: flex;
+}
+.address{
+    color: white;
+}
+.ghost{
+    width: 125px;
+}
+.telephone{
+    color: #ff974f;
+}
+.phone-container{
+    width: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ghost-spacing{
+    width: 20%;
+}
+.navbar{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 20vh;
+    position: relative;
+    left: 50px;
+}
+.logo > img{
+    width: 90%;
+    height: 70%;
+}
+.links-border{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 1.5vw;
+}
+.links{
+    color: white;
+    width: 70%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links > a{
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.links > a.active{
+    background-color: transparent;
+    border-radius: 3px;
+    border: 2px solid #ff974f;
+    font-weight: bold;
+}
+.border{
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border: 2px solid #ff974f;
+    border-radius: 5px;
+    position: relative;
+    right: 10px;
+}
+
+.border > a{
+    color: white;
+    position: relative;
+    right: -8px;
+}
+.border:hover{
+    border-color: #ff8c00;
+}
+h1{
+    font-size: 75px;
+    color: aliceblue;
+    font-weight: 700;
+    font-family: lora, serif;
+    text-align: center;
+}
+/* sec2 */
+.whitecon{
+    max-width: 100%;
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.center{
+    width: 670px;
+    height: 500px;
+    /* background-color: #69a61e; */
+    line-height: 23px;
+}
+h2{
+    font-size: 17px;
+}
+h3{
+    font-size: 33px;
+    text-transform: uppercase;
+    position: relative;
+    left: 2px;
+}
+.border-line{
+    width: 90px;
+    height: 2px;
+    background-color: #ff8c00;
+    position: relative;
+    left: 2px;
+}
+.phone{
+   top: 5%;
+   left: 70px;
+    position: relative;
+ }
+ .pho{
+    position: relative;
+    left: 110px;
+    bottom: 11px;
+ }
+ .lope{
+    left: 70px;
+     position: relative;
+  }
+  .mai{
+     position: relative;
+     left: 110px;
+     bottom: 38px;
+  }
+  .location{
+    left: 70px;
+     position: relative;
+     bottom: 20px;
+  }
+  .adress{
+     position: relative;
+     left: 110px;
+     bottom: 58px;
+  }
+
+h4{
+    font-size: 19px;
+    font-weight: 400;
+}
+.team{
+    width: 500px;
+    height: 350px;
+    background-image: url(../images/team-colored.jpg);
+}
+/* sec3 */
+#cont{
+    max-width: 100%;
+    height: 110vh;
+    background-image: url(../images/bg4.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center-white{
+    width: 80vw;
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact{
+    width: 400px;
+    height: 500px;
+    /* background-color: rgba(0, 128, 128, 0.637); */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    line-height: 35px;
+}
+h5{
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    left: 70px;
+}
+h6{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(63, 63, 63);
+    
+}
+
+.colum{
+    padding: 8vh 10vw;
+    width: 35vw;
+    height: 80vh;
+    justify-content: center;
+    align-content: center;
+    margin-top: 13rem;
+    background-color: white;
+    margin-bottom: 13rem;
+    float: left;
+
+}
+
+.colum h6{
+    font: 16px "Raleway", sans-serif;
+    color: #1f2a30;
+    font-weight: 700;
+    /* border: 2px solid orange; */
+    padding: 20px 20px;
+    margin-left: -5rem;
+}
+
+.colum h3{
+    font: 32px 'Lora', sans-serif;
+    color: #1f2a30;
+    font-weight: 700;
+    /* border: 2px solid orange; */
+    padding: 0px 20px;
+    margin-left: -5rem;
+}
+
+.colum p{
+    font: 16px 'Lora', sans-serif;
+    color: #1f2a30;
+    font-weight: 100;
+    /* border: 2px solid orange; */
+    width: 30vw;
+    padding: 0px 20px;
+    margin-left: -5rem;
+}
+
+.line{
+    border: 1px solid #ff8c00;
+    background-color: #ff8c00;
+    width: 7vw;
+    justify-content: left;
+    margin-left: -0.2rem;
+}
+
+.Content{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+/* .spacing{} */
+
+.newpage{
+    background-image: url(/images/bg4.jpg);
+    overflow: none;
+    margin-top: 8rem;
+    justify-content: center;
+    background-attachment: fixed;
+    /* align-content: center; */
+}
+
+.form{
+    background-color: white;
+    padding: 20px 80px;
+    width: 35vw;
+    height: 80vh;
+    justify-content: center;
+    align-content: center;
+    margin-top: 13rem;
+    margin-bottom: 13rem;
+}
+
+.contactform{
+    margin-top: 1rem;
+}
+.nav{
+    float: right;
+}
+
+.formcontrol{
+    width: 23rem;
+    height: 2.543rem;
+    border: 2px solid rgba(128, 128, 128, 0.504);
+}
+
+.formcontrol-1{
+    width: 23rem;
+    height: 10rem;
+    border: 2px solid rgba(128, 128, 128, 0.504);
+}
+
+.icon{
+    padding: 20px 30px;
+    /* padding-left: 50px; */
+    /* border: 3px solid orange; */
+    margin-top: 50px;
+}
+
+.icon a{
+    border: 1.38px solid rgba(128, 128, 128, 0.323);
+    padding: 10px 10px 10px 10px;
+    justify-content: center;
+    align-content: center;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+.fa:hover{
+    color: #ff974f;
+}
+.face{
+    left: 27rem;
+    top: -170px;
+}
+.btn{
+    background-color: #ff974f;
+    padding: 16px 35px;
+    text-decoration: none;
+    border-radius: 6px;
+    color: white;
+    font: 1rem Raleway, sans-serif;
+}
+.btn:hover{
+    background-color: #ef6e12;
+}

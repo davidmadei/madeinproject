@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html style="scroll-behavior: smooth;">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+.sec1 {
+    width: 100%;
+    height: 145vh;
+    /* background-color: aqua; */
+    background-image: url(images/bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    /* overflow: hidden; */
+}
+/* this is for the address */
+.header {
+    width: 40%;
+    height: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-left: 80px;
+}
+/* this is for our call us at and address */
+p {
+    font-size: 12px;
+    font-family: Arial, serif;
+    font-weight: 600;
+    color: rgb(253, 253, 253);
+}
+/* this is for the address and number  */
+h1 {
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+    color: rgb(179, 181, 182);
+}
+/* this is for the contact */
+.header2 {
+    width: 20%;
+    height: 90px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-left: 68rem;
+    margin-top: -100px;
+}
+/* this the logo and name */
+.img1{
+    width: 400px;
+    margin-left: 110px;
+    margin-bottom: 500px;
+}
+/* this is for the navbar */
+.navs{
+    width: 30%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 500px;
+    font-size: 16px;
+    font-family: sans-serif;
+    
+}
+/* this is for nave text for contact and home */
+a{
+    font-size: 20px;
+    color: rgb(255, 240, 240);
+    text-decoration: none;
+    
+}
+/* contact us border */
+.border-line{
+    padding: 10px 10px;
+    border: 2px solid #ff974f;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: bold;
+}
+/* this is for the about and practise text */
+.faint{
+    color: rgba(183, 184, 185, 0.979);
+}
+/* the container for navbar */
+.center{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.read{
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    margin-left: 130px;
+    border-radius: 2px;
+    position: relative;
+    top: 11%;
+    text-decoration: none;
+ }
+.read:hover{
+     border: 2px solid  #ff974f; 
+     }
+#contact{
+    background-image: url(images/bg4.jpg);
+    width: 100%;
+    height: 118vh;
+    background-attachment: fixed;
+}
+.form{
+    background-color: white;
+    width: 80%;
+    height: 50%;
+    margin-top: -50rem;
+    margin-left: 8rem;
+}   
+.now{
+   font-size: 16px;
+   font-family: raleway sans-serif;
+   margin-top: -30rem;
+   margin-left: 13rem;
+   font-weight: 700;
+}
+/* this is for contact us */
+.us{
+    font-size: 32px;
+    font-family: lora serif;
+    margin-left: 13rem;
+    margin-top: 1rem;
+}
+/* the last line */
+.h8{
+    position: static;
+    left: 0;
+    width: 80px;
+    height: 2px;
+    background-color: #ff974f;
+   margin-bottom: -34%;
+   /* margin-left: 10%; */
+   margin-left: 15%;
+}
+/* this is for Our Lawyers are ready */
+.you{
+    color: black;
+  font-size: 15px;
+   font-family: Raleway, sans-serif;
+   /* margin-left: 140px; */
+   font-weight: 400;
+   margin-top: 33rem;
+   margin-left: 13rem;
+}
+.face{
+        margin-left: 60rem;
+        margin-top: -170px;
+        border: 1px solid #f1f1f1;
+        border-radius: 3px;
+        width: 37px;
+        height: 30px;
+        position: relative;
+        text-align: center;
+        padding-top: 5px;  
+    }
+.face:hover{
+    color:  #ff974f;
+}
+    /* this is for twitter icon */
+    .twitter{
+        margin-left: 63rem;
+        margin-top: -37px;
+        border: 1px solid #f1f1f1;
+        border-radius: 3px;
+        width: 37px;
+        height: 30px;
+        position: relative;
+        text-align: center;
+        padding-top: 5px;
+    }
+.twitter:hover{
+        color:  #ff974f;
+}
+    /* this is for linkedin icon */
+.in{
+        margin-left: 66rem;
+        margin-top: -37px;
+        border: 1px solid #f1f1f1;
+        border-radius: 3px;
+        width: 37px;
+        height: 30px;
+        position: relative;
+        text-align: center;
+        padding-top: 5px;
+}
+.in:hover{
+        color:  #ff974f;
+}
+    /* this is for instagram icon */
+.insta{
+        margin-left: 69rem;
+        margin-top: -37px;
+        border: 1px solid #f1f1f1;
+        border-radius: 3px;
+        width: 37px;
+        height: 30px;
+        position: relative;
+        text-align: center;
+        padding-top: 5px;
+}
+.insta:hover{
+        color:  #ff974f;
+}
+    /* this is for vimeo icon */
+.vimeo{
+        margin-left: 72rem;
+        margin-top: -37px;
+        border: 1px solid #f1f1f1;
+        border-radius: 3px;
+        width: 37px;
+        height: 30px;
+        position: relative;
+        text-align: center;
+        padding-top: 5px;
+}
+.vimeo:hover{
+        color:  #ff974f;
+}
+    /* this is the phone icon */
+.phone{
+      margin-top: 12%;
+      margin-left: 15%;
+}
+      /* this is the phone color */
+.color{
+    font-size: 16px;
+    margin-left: 17%;
+    margin-top: -28px;
+    font-weight: 600;
+}
+      /* this is the envelope icon */
+.lope{
+          margin-left: 15%;
+      }
+      /* this is to style the email */
+      .email{
+        margin-left: 18%; 
+        margin-top: -28px;
+      }
+      /* location icon */
+     .location{
+        margin-top: -0%;
+        margin-left: 15%;
+     }
+     /* this is to style the adress  */
+     .map{
+        margin-left: 18%; 
+        margin-top: -28px;
+     }
+     /* this the form container */
+     .name{
+        margin-left: 50%;
+        margin-top: -320px;
+        border-color: #666567;
+        font-family: raleway,sans-serif;
+      
+    }
+    /* for the form */
+    .hold{
+        width: 500px;
+        height: 30px;
+        border: 1px solid #f1f1f1;
+    }
+     /* for the form */
+    .mail{
+        width: 500px;
+        height: 30px; 
+        border: 1px solid #f1f1f1;
+    }
+     /* for the form */
+    .age{
+        width: 500px;
+        height: 100px;
+        border: 1px solid #f1f1f1;
+    }
+    /* for the button */
+    .sub{
+        background-color:  #ff974f;
+        color: white;
+        padding: 16px 30px;
+        border: none;
+        font-size: inherit;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        /* display: inline-block; */
+        border-radius: 4px;
+        text-align: center;
+        /* justify-content: center; */
+        margin-left: 21rem;   
+    }
+    .sub:hover{
+       background-color: #ff8c00;  
+       /* box-shadow: 0px 0px 15px  #ff8c00;               */
+    }
+  .foot{
+      background-color: white;
+      width: 100%;
+      height: 70px;
+    margin-top: 380px;
+  }
+  .tade{
+      margin-left: 120px;
+      color: #444343;
+      padding: 18px 0 0 18px;
+      font-weight: 500;
+      font-family: raleway,sans-serif;
+  }
+  .last{
+      font-size: 12.5px;
+      font-weight: 500;
+      color: #444343;
+      cursor: pointer;
+  }
+  .fa:hover{
+    color: #ff974f;
+}
+    
+
+</style>
+<title>GATEWAY PARTNERS-Legal Practice</title>
+</head>
+<body style="margin: 0;overflow-x: hidden;">
+    <section class="sec1">
+        <div class="header"> &nbsp; <i class="fa fa-map-marker" style="font-size:20px; color: rgb(255, 115, 0); margin-top: 10px;" ></i>
+         <p>Address:<h1> H - 535. Road 3. Ikota Shopping Complex, VGC, Lekki- Ajah, Lagos Nigeria</h1></p
+         ></div> 
+         <div class="header2">
+            <i class="fa fa-phone" style="font-size: 20px; color:  rgb(255, 115, 0); margin-top: 10px;"></i> <p>Call us at:<h1>08131805797,08105259527</h1></p>
+         </div>
+         <div class="center">
+             <a href="newproject.html">
+         <img src="images/logo.png" class="img1">
+        </a>
+         <nav class="navs">
+             <a href="index.html" class="faint">Home</a>
+             <a href="about.html" class="faint">About us</a> 
+             <a href=" area.html"  class="border-line">Practice area</a>
+             <a href="#contact" class="faint">Contact us</a>
+         </nav>
+        </div>
+        <h1 style="color: white;font-size:72px; text-align:center; font-family: lora,serif;font-weight: 700;position: relative;top: -48%;">Our Practice Area</h1>
+        <div style="background-color: white; width:100%;height:1390px;position: relative;top: -48%;">
+            <p style="color: grey;font:16px Raleway,sans-serif; position: relative;top: 120px;left: 110px;">Our Services</p>
+    <h3 style="position: relative;top: 130px; left: 110px;color: black; font-size: xx-large;">PRACTICE AREAS</h3>
+    <h2 style=" width: 80px;height: 2px;background-color: #ff974f;position: static;position: relative;top: 136px; left: 110px;"></h2>
+    <p style="color: grey;font:16px Raleway,sans-serif; position: relative;top: 140px;left: 110px;">Our Practice Area Includes:</p>
+    <p style="color: black;font:16px Raleway,sans-serif; position: relative;top: 140px;left: 110px;">
+        - Real Estate transactions & litigation <br>
+        - Corporate & Commercial Litigation  <br>
+        - Civil & Criminal Litigation  <br>
+        - Insurance  <br>
+        - Maritime  <br>
+        - Debt Recovery  <br>
+        - Oil, Gas and Energy  <br>
+        - Arbitration and Mediation  <br>
+        - Intellectual Property  <br>
+        - Government Affairs & Regulatory Issues  <br>
+    </p>
+    <p style="color: gray;font:16px Raleway,sans-serif; position: relative;top: 140px;left: 110px;">
+        Real Estate Transactions: We handle all aspects of real estate transactions, as well as real <br>
+        estate litigation. Our lawyers provide skilled legal counsel to clients involved in a wide <br>
+        range of real estate transactions. We represent buyers and sellers in complex real estate <br>
+        purchase and sale transactions, leases and subleases on behalf of landlords and <br>
+        tenants. Whether you are buying, selling, leasing or playing any other role in a real estate<br>
+         transaction, contact us to get sophisticated legal counsel to assist you with the pursuit of<br>
+          a successful outcome.<br>
+          <br>
+          <br>
+          Corporate & Commercial Litigation: Our lawyers represent business and nonprofit<br>
+          entities throughout the country in litigating a wide range of business and commercial<br>
+          disputes.<br>
+          Arbitration and Alternative Dispute Resolution: We are experienced at representing<br>
+          clients in the unique context of ADR in real estate, business partnerships and other <br>
+          commercial areas. We represent client who are involved in any dispute that may go into<br>
+          arbitration or mediation. We represent clients in other forms of alternative dispute<br>
+          resolution (ADR), including mediation.<br>
+          Maritime Law: (also known as Admiralty Law) is a separate body of law governing a <br>
+          variety of maritime-related disputes. Our Law Firm have a broad wealth of knowledge<br>
+          concerning this area of law: cargo carriage disputes; oil spills; vessel operation;<br>
+           commercial/contractual claims and a variety of other maritime disputes.<br>
+           <br>
+           <br>
+           Insurance: Insurance provides an important form of security for individuals in a wide<br>
+         range of situations. In the event of a serious accident, insurance can help to cover the<br>
+          costs. We have substantial experience helping clients in a wide range of different<br>
+           situations. We work to hold insurers accountable for the responsibilities they have <br>
+           towards their clients. Sometimes, you don’t have to pay for our services until we recover <br>
+           compensation through your <br>
+           <br>
+           <br>
+         Debt recovery; The prospect of pursuing commercial debt can be a trying experience for  <br>
+         creditors: instituting legal proceedings can carry significant costs and be time <br>
+         consuming. Our team offer an expert service, navigating our clients through the legal <br>
+         processes necessary to recover the commercial debt they are due.
+         We act for both<br>
+          commercial and personal clients in debt recovery, from small claims up to long-term<br>
+           debts.<br>
+           <br>
+           <br>
+           Oil, Gas and Energy: We have extensive experience in oil, gas and energy transactional<br>
+           matters. The combined expertise of our lawyers allows us to provide the highest quality <br>
+           representation available to our oil and gas clients in virtually all aspects of their business <br>
+           such as: Regulatory Compliance and Authority, Drilling Title Opinions, • Document and <br>
+           Transactional Drafting, Joint Operating Agreements, Leases, Permits etc. Attention to<br>
+            detail, comprehensive knowledge and experience form the foundation of our approach,<br>
+             and our diligence is second to none. Additionally, we understand that many of these<br>
+              issues are time-sensitive and therefore, we do everything possible to accommodate the<br>
+               demands of the situation and to facilitate the transaction rather than impede it.<br>
+               <br>
+               <br>
+               Intellectual Property: Protecting your intellectual property rights is vital if you wish to<br>
+               retain control of your ideas and products and reap the rewards of your developments.<br>
+                We provide a full service from the acquisition, exploitation and protection of intellectual<br>
+                 property, through to its commercial use and the handling of infringement and other <br>
+                 contentious issues. We can also assist you at any stage of your venture, whether you <br>
+                 have just finalized a concept you wish to patent, are transferring various IP assets, wish to<br>
+                  invest in IP or are involved in IP litigation.<br>
+                  <br>
+                  <br>
+                  Government Affairs & Regulatory Issues: Today's business environment is frequently<br>
+            clouded by state and local regulations, policies and new legislation, which can have <br>
+             significant impact on the cost and operation of your business, organization or profession.<br>
+              Having the right person in your corner to advocate on your behalf can be a crucial factor<br>
+               in your organization’s success. When selecting your advisors, you need a team with the<br>
+                right relationships, the political intelligence, the legal knowledge and a reputation for<br>
+                 delivering results. Our team brings together deep regulatory knowledge and policy<br>
+                  advocacy experience with local insight. We deliver results on a local or international<br>
+                   level.<br>
+    </p>
+    <a href="#contact" class="read" >Talk To Us Now!</a>
+    </div>
+    <div id="contact"></div>
+    <div class="form"></div>
+    <div class="now"> 
+        Talk To Us Now!
+    </div>
+    <div class="us">
+        CONTACT US
+    </div>
+    <h6 class="h8"></h6>
+    <div class="you">
+        Our Lawyers are ready, willing to assist you.
+    </div>
+    <br>
+    <div class="face">
+        <a style="color: black;" href=""><i class="fa fa-facebook" style="font-size:24px"></i></a>
+    </div>
+    <div class="twitter">
+        <a style="color: black;" href=""><i class="fa fa-twitter" style="font-size:24px"></i></a> 
+    </div>
+    <div class="in">
+        <a  style="color: black;"href=""><i class="fa fa-linkedin" style="font-size:24px"></i></a> 
+    </div>
+    <div class="insta">
+        <a  style="color: black;"href="">  <i class="fa fa-instagram" style="font-size:24px"></i></a> 
+    </div>
+    <div class="vimeo">
+        <a  style="color: black;"href=""><i class="fa fa-vimeo" style="font-size:24px"></i></a> 
+    </div>
+    <div class="phone">
+        <i class="fa fa-phone"></i>
+    </div>
+    <div class="color">
+    <p style="color: black;">Phone :</p>
+    <p style="color:#636363">08032688831 | 08050504174</p>
+    </div>
+    <div class="lope">
+        <i class="fa fa-envelope-o" style="font-size:24px"></i>
+    </div>
+    <div class="email">
+    <p style="color: black;">Email :</p>
+    <p style="color: black;">info@gokeijiola.com</p>
+    </div>
+    <div class="location">
+        <i class="fa fa-map-marker" style="font-size:24px"></i>
+    </div>
+    <div class="map">
+        <p style="color: black;">Address :</p>
+        <p style="color: #636363;">H - 535. Road 3. Ikota Shopping Complex, VGC,<br>
+            Lekki- Ajah, Lagos Nigeria.</p>
+    </div>
+    
+        <form class="name">
+            <input type="text" placeholder="Name" class="hold">
+            <br>
+            <br>
+            <input type="text" placeholder="Email" class="mail">
+            <br>
+            <br>
+            <textarea cols="45px" rows="25px" placeholder="message" class="age"></textarea>
+            <br>
+            <br>
+           <a href="" class="sub">Send message</a>
+             </form>
+            <br>
+            <footer>
+                <div class="foot">
+                    <p class="tade">©️ 2016. All rights reserved at Gateway Partners, Legal Practitioner & Property Consultants.   webmaster:
+                         <a href="http://www.intensewebconcepts.com" class="last"> intense web concepts</a> </p>
+                </div>
+            </footer>
+
+     
+</body>
+</html>
